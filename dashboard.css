@@ -33,6 +33,11 @@ body{
     border-radius: 50%;
     margin-left: 95%;  
 }
+.profile img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
 .pro-dir{
     background-color: brown;
    
@@ -81,12 +86,12 @@ body{
       padding: 14px;
     }
     .topnav input[type=text] {
-      border: 1px solid #ccc;
+      /* border: 1px solid #ccc; */
     }
   }
   .contain{
       /* background-color: rgb(223, 116, 182); */
-      border: 1px solid chartreuse;
+      /* border: 1px solid chartreuse; */
       height: 100%;
       width: 95%;
       display: flex;
@@ -95,7 +100,7 @@ body{
   }
   .dash-cont{
       
-    border: 1px solid coral;
+    /* border: 1px solid coral; */
       width: 100px;
       height: 100px;
       margin: 0px;
@@ -104,12 +109,14 @@ body{
       /* margin-top: 20%; */
   }
   .cards{
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin: 5px;
     width: 100%;
     height: 50%;
     justify-content: center;
     padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   }
   .h5{
@@ -120,32 +127,53 @@ body{
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .button {
-    background-color: #04AA6D;
+    background-color: #9dcebc;
     border: none;
+    border-radius: 10px;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
+    height: 40px;
+    width: 70px;
   }
   /* .button5 {border-radius: 50%;} */
 
   .button1{
-    background-color: #fa1818;
+    background-color: #b96868;
     border: none;
+    border-radius: 10px;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 15px;
     margin: 4px 2px;
+    height: 40px;
+    width: 70px;
+  }
+
+  .button2{
+    background-color: #94e0e6;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    height: 40px;
+    width: 70px;
   }
   /* .button4{border-radius: 50%;} */
   .section-dashboard{
-      border: 2px solid coral;
+      /* border: 2px solid coral; */
       height: 80%;
   }
   
