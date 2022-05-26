@@ -11,15 +11,7 @@ class AddList{
             "this is my project"
         )
     ]
-}
-
-
-
-
-
-
-
-render() {
+    render() {
     const rootApps = document.getElementById("#add");
     const picture = document.createElement("div");
     picture.className = "image";
@@ -33,6 +25,16 @@ render() {
     `;
     
     rootApps.append(picture);
+    const add = new AddList();
+    add.render();
 }
-const add = new AddList();
-add.render();
+
+}
+
+
+
+
+
+
+
+
