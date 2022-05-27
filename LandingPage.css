@@ -139,16 +139,26 @@ a{
       flex-wrap: wrap;
       justify-content: space-between;
       margin: 0  0 0  0;
-      background-color: #4bcae0;
+      background-color: #313333;
 
       
   }
   .card2{
-      background-color: #4bcae0;
+      background-color: #313333;
       height: 50%;
       width: 30%;
 
   }
+  .card2 h3{
+   color: rgb(255, 255, 255);
+  }
+  .card2 p{
+    color: rgb(255, 255, 255);
+   }
+   .card2 h{
+    color: rgb(255, 255, 255);
+   }
+
   .ser{
       text-align: center;
       border-radius: 2%;
@@ -166,7 +176,7 @@ a{
   }
   a{
       text-decoration: none;
-      color: #000;
+      color: rgb(255, 255, 255);
   }
   /* .gmap_canvas{
       height: 50%;
@@ -248,7 +258,7 @@ a{
 }
 /* Style buttons */
 .btn {
-  background-color: rgb(138, 191, 245);
+  background-color: rgb(74, 80, 85);
   border: none;
   color: white;
   padding: 0px 5px;

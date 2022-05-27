@@ -1,3 +1,37 @@
-.images{
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.upload-card{
+    /* border: 1px solid orangered; */
+    margin-left: 40%;
+    margin-right: 40%;
+    justify-content: space-between;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.upload-img{
+    margin: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.upload-description{
+ padding: 10px;
+ 
+}
+.upload-description input{
+    color: rgb(26, 25, 25);
+    font-weight: 100;
+    font-style: normal;
+    height:100px;
+    background-color: azure;
+}
+
+.upload-button{
+    padding: 10px;
     
+}
+.upload-button input{
+    background-color: rgb(238, 238, 241);
+    height: 30px;
+    border-radius: 5px;
 }
