@@ -11,18 +11,19 @@
 <body>
     
         <form action="action_page.php" method="post">
+          <!-- <div class="bigcontainer"> -->
             <div class="imgcontainer">
               <img src="a.jpg" alt="Avatar" class="a">
             </div>
           
             <div class="container">
-              <label for="uname"><b>Username</b></label>
+              <label for="uname"><p>Username</p></label>
               <input type="text" placeholder="Enter Username" name="username" id="username" required/>
           
-              <label for="psw"><b>Password</b></label>
+              <label for="psw"><p>Password</p></label>
               <input type="password" placeholder="Enter Password" name="password" id="password" required/>
           
-              <input type="button" value="Login"  id="submit" onclick="validate()"/>
+              <input type="button" class="loginBtn" value="Login"  id="submit" onclick="validate()"/>
               <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label>
@@ -32,6 +33,7 @@
               <button type="button" class="cancelbtn">Cancel</button>
               <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
+          <!-- </div>   -->
           </form>
           
     
