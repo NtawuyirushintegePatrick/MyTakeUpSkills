@@ -5,14 +5,15 @@ body{
 .upload-card{
     /* border: 1px solid orangered; */
     margin-left: 40%;
-    margin-right: 40%;
+    margin-right: 43%;
     justify-content: space-between;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 .upload-img{
     margin: 5px;
     margin-right: 20px;
-    border-radius: 5px;
+    border-radius: 50px;
+    
 }
 .upload-description{
  padding: 10px;
@@ -33,5 +34,11 @@ body{
 .upload-button input{
     background-color: rgb(238, 238, 241);
     height: 30px;
+    border-radius: 5px;
+}
+.comment{
+    padding: 5px;
+    width: 210px;
+    height: 100px;
     border-radius: 5px;
 }

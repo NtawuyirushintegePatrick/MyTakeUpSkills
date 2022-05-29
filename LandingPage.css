@@ -285,6 +285,7 @@ font-style: oblique;
     padding: 5px;
     width: 320px;
     height: 100px;
+    border-radius: 5px;
   }
   input{
     margin: 5px;
