@@ -10,7 +10,7 @@
 </head>
 <body>
     
-        <form action="action_page.php" method="post">
+        <form action="/" >
           <!-- <div class="bigcontainer"> -->
             <div class="imgcontainer">
               <img src="a.jpg" alt="Avatar" class="a">
@@ -23,7 +23,7 @@
               <label for="psw"><p>Password</p></label>
               <input type="password" placeholder="Enter Password" name="password" id="password" required/>
           
-              <input type="button" class="loginBtn" value="Login"  id="submit" onclick="validate()"/>
+              <input type="button" class="loginBtn" value="Login"  id="submit" onClick="login()" />
               <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label>
@@ -39,4 +39,5 @@
     
     
 </body>
+<script src="Login.js"></script>
 </html>
